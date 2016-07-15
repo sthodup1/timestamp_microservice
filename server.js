@@ -1,7 +1,7 @@
 var express = require("express");
 var moment = require("moment");
 var app = express();
-
+console.log("1");
 app.set('env', 'production');
 app.set('views', __dirname);
 app.set('view engine', 'jade');
@@ -29,6 +29,6 @@ app.get('/:date', function (req, res) {
   res.json(toSend);
 });
 
-app.listen(8080, function () {
-  console.log('App is listening on port 8080!');
+app.listen(process.env.PORT || 800, function () {
+  console.log('App is listening');
 });
