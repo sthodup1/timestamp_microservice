@@ -1,0 +1,22 @@
+{
+  "name": "timestamp-microservice",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthodup1/timestamp_microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthodup1/timestamp_microservice/issues"
+  },
+  "homepage": "https://github.com/sthodup1/timestamp_microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
