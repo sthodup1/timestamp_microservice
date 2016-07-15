@@ -1,7 +1,7 @@
 var express = require("express");
 var moment = require("moment");
 var app = express();
-console.log("1");
+
 app.set('env', 'production');
 app.set('views', __dirname);
 app.set('view engine', 'jade');
